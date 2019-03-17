@@ -35,3 +35,6 @@ Test Case D
 Test Case E
 -Create a Frog class
 -call the required function and count total successful of each method fly, walk, sing, swim if no throws Exception
+
+Test Case Fish
+-Add Locale class at Rooster class to allow it check with default locale language of JVM before initialize the sound 
