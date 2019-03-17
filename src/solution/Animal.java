@@ -23,6 +23,16 @@ public class Animal implements Soundable, Walkable {
     public void walk() {
         System.out.println("I am walking");
     }
+    
+    public void setSound(Object object) {
+        if (object instanceof Animal) {
+            sound = ((Animal) object).sound;
+        } else if (object instanceof String) {
+            sound = (String) object;
+        } else {
+            sound = "";
+        }
+    }
 
     @Override
     public String toString() {

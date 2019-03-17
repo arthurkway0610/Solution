@@ -12,3 +12,5 @@ Test Case A1
 3a:- add sound for Chicken class
 3b:- Rooster is male of Chicken and it do have same attribute and function of Chicken
 3c:- add interface to Chicken class and make it have to implements same function as Chicken, however the inheritance can save extra work.
+
+4a,b,c,d:- add a Parrot class which able to accept near by object with Animal or String type to change the sound dynamically.

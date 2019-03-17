@@ -9,11 +9,14 @@ package solution;
  *
  * @author arthur0610
  */
-public class Rooster extends Chicken {
-    
-    public Rooster() {
-        sound = "Cock-a-doodle-doo";
-        gender = "Male";
+public class Dog extends Animal implements Walkable {
+
+    public Dog() {
+        sound = "Woof, woof";
     }
-    
+
+    @Override
+    public void walk() {
+        System.out.println("I am walking");
+    }
 }
