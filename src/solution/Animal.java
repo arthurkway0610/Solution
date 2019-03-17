@@ -10,6 +10,12 @@ package solution;
  * @author arthur0610
  */
 public class Animal implements Walkable {
+    
+    String sound;
+    
+    public void sound() {
+        System.out.println(sound);
+    }
 
     @Override
     public void walk() {
@@ -28,4 +34,8 @@ interface Flyable {
 
 interface Singable {
     public void sing();
+}
+
+interface Swimmable {
+    public void swim();
 }

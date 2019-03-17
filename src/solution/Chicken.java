@@ -9,10 +9,10 @@ package solution;
  *
  * @author arthur0610
  */
-public class Bird extends Animal implements Singable {
-    
-    @Override
-    public void sing() {
-        System.out.println("I am singing");
+public class Chicken extends Bird {
+
+    public Chicken() {
+        sound = "Cluck, cluck";
     }
+
 }
