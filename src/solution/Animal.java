@@ -9,7 +9,7 @@ package solution;
  *
  * @author arthur0610
  */
-public class Animal implements Soundable, Walkable {
+public class Animal implements Soundable  {
     
     String sound;
     String gender;
@@ -17,11 +17,6 @@ public class Animal implements Soundable, Walkable {
     @Override
     public void sound() {
         System.out.println(sound);
-    }
-
-    @Override
-    public void walk() {
-        System.out.println("I am walking");
     }
     
     public void setSound(Object object) {

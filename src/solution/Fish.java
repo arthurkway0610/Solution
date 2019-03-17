@@ -9,16 +9,11 @@ package solution;
  *
  * @author arthur0610
  */
-public class Bird extends Animal implements Walkable, Singable {
-    
+public class Fish extends Animal implements Swimmable {
+
     @Override
-    public void walk() {
-        System.out.println("I am walking");
+    public void swim() {
+        System.out.println("I am swimming");
     }
-    
-    @Override
-    public void sing() {
-        System.out.println("I am singing");
-    }
-    
+
 }
