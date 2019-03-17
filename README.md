@@ -26,3 +26,8 @@ Test Case B
 
 3:- dolphin is animal type so it can have same attribute as Fish like size and color. implements Swimmable interface to allow dolphin contains swim method.
 3b:- Animal class contains all basic attribute and function that Fish and Dolphin to save unneeded overhead.
+
+
+Test Case D
+-Create Butterfly and Caterpillar class and initialize the sound as empty value
+-add interface Metamorphosable to Class Caterpillar to allow caterpillar metamorphosis to a new butterfly object.
