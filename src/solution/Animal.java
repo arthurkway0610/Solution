@@ -13,6 +13,8 @@ public class Animal implements Soundable  {
     
     String sound;
     String gender;
+    String size;
+    String color;
     
     @Override
     public void sound() {
@@ -31,7 +33,7 @@ public class Animal implements Soundable  {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "{" + "sound=" + sound + ", gender=" + gender + '}';
+        return this.getClass().getSimpleName() + "{" + "sound=" + sound + ", gender=" + gender + ", size=" + size + ", color=" + color + '}';
     }
     
 }

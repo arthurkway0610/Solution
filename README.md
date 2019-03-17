@@ -18,3 +18,9 @@ Test Case A
 
 Test Case B
 1a,b,c:- add a Fish class which only implements Swimmable interface and remove Walkable from Animal since not all animal can walk
+
+2:- add attribute size and color to Animal since all animal could have these types of attributes
+2a,d:- add a Shark class extends Fish as parent class and add custom method eat, initialize the size as large and color as grey
+2b,c:- add a Clownfish class extends Fish as parent class and add custom method joke, initialize the size as small and color as orange
+
+
