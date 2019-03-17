@@ -31,3 +31,7 @@ Test Case B
 Test Case D
 -Create Butterfly and Caterpillar class and initialize the sound as empty value
 -add interface Metamorphosable to Class Caterpillar to allow caterpillar metamorphosis to a new butterfly object.
+
+Test Case E
+-Create a Frog class
+-call the required function and count total successful of each method fly, walk, sing, swim if no throws Exception
