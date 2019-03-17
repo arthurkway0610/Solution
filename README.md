@@ -24,3 +24,5 @@ Test Case B
 2b,c:- add a Clownfish class extends Fish as parent class and add custom method joke, initialize the size as small and color as orange
 
 
+3:- dolphin is animal type so it can have same attribute as Fish like size and color. implements Swimmable interface to allow dolphin contains swim method.
+3b:- Animal class contains all basic attribute and function that Fish and Dolphin to save unneeded overhead.
